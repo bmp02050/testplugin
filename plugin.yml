@@ -1,0 +1,16 @@
+name: ReddCraft
+main: com.bradleyploof.reddcraft.Main
+version: 1.0
+commands:
+  send:
+    description: Send Reddcoin to a player
+    usage: /<command> [player] [amount]
+  checkwallet:
+    description: View balance of available Reddcoin
+    usage: /<command>
+  register:
+    description: Register your username on server to accept/send Reddcoin
+    usage: /<command>
+  haswallet:
+    description: Check to see if user has wallet registered on server
+    usage: /<command> [player]
